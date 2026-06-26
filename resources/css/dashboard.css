@@ -1,0 +1,21 @@
+.mbg-dashboard{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:28px;
+
+}
+
+.fi-section{
+
+    width:100%;
+
+}
+
+.fi-wi-widget{
+
+    width:100%;
+
+}

@@ -1,0 +1,155 @@
+/* ==========================================
+   MBG WIDGETS
+========================================== */
+
+.fi-widget{
+
+    background:transparent;
+
+    border:none;
+
+    box-shadow:none;
+
+}
+
+/* ===========================
+   SECTION
+=========================== */
+
+.fi-section{
+
+    background:transparent;
+
+    border:none;
+
+    box-shadow:none;
+
+    padding:0;
+
+}
+
+/* ===========================
+   WIDGET TITLE
+=========================== */
+
+.fi-section-header-heading{
+
+    color:var(--mbg-text);
+
+    font-weight:700;
+
+    font-size:1.15rem;
+
+}
+
+.fi-section-header-description{
+
+    color:var(--mbg-text-muted);
+
+}
+
+/* ===========================
+   CHART
+=========================== */
+
+.fi-chart{
+
+    background:var(--mbg-card);
+
+    border-radius:var(--radius);
+
+    border:1px solid var(--mbg-border);
+
+    box-shadow:var(--shadow-card);
+
+    padding:20px;
+
+}
+
+/* ===========================
+   QUICK ACTION
+=========================== */
+
+.mbg-action{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:14px;
+
+    background:var(--mbg-card);
+
+    border:1px solid var(--mbg-border);
+
+    border-radius:var(--radius);
+
+    padding:18px;
+
+    transition:var(--transition);
+
+}
+
+.mbg-action:hover{
+
+    transform:translateY(-4px);
+
+    border-color:var(--mbg-gold);
+
+}
+
+/* ===========================
+   ACTIVITY
+=========================== */
+
+.mbg-activity{
+
+    display:flex;
+
+    gap:14px;
+
+    padding:18px;
+
+    background:var(--mbg-card);
+
+    border-radius:var(--radius);
+
+    border:1px solid var(--mbg-border);
+
+}
+
+.mbg-activity-time{
+
+    color:var(--mbg-text-muted);
+
+    font-size:.8rem;
+
+}
+
+/* ===========================
+   BADGE
+=========================== */
+
+.mbg-badge{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:6px;
+
+    border-radius:999px;
+
+    padding:6px 12px;
+
+    background:rgba(132,195,65,.15);
+
+    color:var(--mbg-green);
+
+    font-size:.75rem;
+
+    font-weight:600;
+
+}

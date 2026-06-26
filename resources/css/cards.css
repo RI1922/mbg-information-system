@@ -1,0 +1,37 @@
+/* ===========================
+   MBG Card
+=========================== */
+
+.mbg-card{
+
+    background:var(--mbg-card);
+
+    border:1px solid var(--mbg-border);
+
+    border-radius:var(--radius);
+
+    padding:1.5rem;
+
+    overflow:hidden;
+
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        border-color .25s ease;
+
+    box-shadow:
+        0 4px 12px rgba(0,0,0,.18),
+        0 1px 3px rgba(0,0,0,.12);
+
+}
+
+.mbg-card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:var(--mbg-gold);
+
+    box-shadow:
+        0 18px 35px rgba(0,0,0,.28);
+
+}

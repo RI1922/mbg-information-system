@@ -1,0 +1,103 @@
+/* ===============================
+   MBG TABLE
+================================= */
+
+/* Container */
+
+.fi-ta{
+
+    border:1px solid var(--mbg-border);
+
+    border-radius:var(--radius);
+
+    overflow:hidden;
+
+    box-shadow:var(--shadow-card);
+
+}
+
+/* Table */
+
+.fi-ta-table{
+
+    border-radius:var(--radius);
+
+    overflow:hidden;
+
+}
+
+/* Header */
+
+.fi-ta-header{
+
+    background:var(--mbg-card);
+
+    border-bottom:1px solid var(--mbg-border);
+
+}
+
+/* Header Cell */
+
+.fi-ta-header-cell{
+
+    color:var(--mbg-text);
+
+    font-weight:700;
+
+    font-size:.85rem;
+
+}
+
+/* Row */
+
+.fi-ta-row{
+
+    transition:var(--transition);
+
+}
+
+.fi-ta-row:hover{
+
+    background:rgba(15,45,105,.08);
+
+}
+
+/* Cell */
+
+.fi-ta-cell{
+
+    color:var(--mbg-text);
+
+}
+
+/* Empty State */
+
+.fi-ta-empty-state{
+
+    padding:3rem;
+
+}
+
+/* Search */
+
+.fi-ta-search-field input{
+
+    border-radius:12px;
+
+}
+
+/* Pagination */
+
+.fi-pagination-item{
+
+    border-radius:10px;
+
+}
+
+/* Bulk Action */
+
+.fi-dropdown-panel{
+
+    border-radius:14px;
+
+}

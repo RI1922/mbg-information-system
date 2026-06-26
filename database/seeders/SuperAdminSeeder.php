@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\User;
 use Illuminate\Database\Seeder;
+use App\Enums\RoleEnum;
 
 class SuperAdminSeeder extends Seeder
 {
@@ -20,6 +21,8 @@ class SuperAdminSeeder extends Seeder
             ]
         );
 
-        $user->assignRole('Super Administrator');
+$user->syncRoles([
+    RoleEnum::SUPER_ADMIN->value,
+]);
     }
 }

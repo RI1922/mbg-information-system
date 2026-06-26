@@ -1,0 +1,147 @@
+:root{
+
+    /* Brand */
+
+    --mbg-primary:#0F2D69;
+    --mbg-secondary:#173B7A;
+
+    --mbg-gold:#C9A04A;
+    --mbg-green:#84C341;
+
+    /* Background */
+
+    --mbg-bg:#0A1325;
+
+    --mbg-card:#111C33;
+
+    --mbg-card-hover:#172646;
+
+    --mbg-border:#24324D;
+
+    /* Text */
+
+    --mbg-text:#F8FAFC;
+
+    --mbg-text-muted:#94A3B8;
+
+    /* Status */
+
+    --mbg-success:#10B981;
+
+    --mbg-warning:#F59E0B;
+
+    --mbg-danger:#EF4444;
+
+    --mbg-info:#3B82F6;
+
+    /* Radius */
+
+    --radius-sm:12px;
+
+    --radius:18px;
+
+    --radius-lg:24px;
+
+    /* Shadow */
+
+    --shadow-card:
+        0 6px 18px rgba(0,0,0,.18);
+
+    --shadow-hover:
+        0 18px 35px rgba(0,0,0,.28);
+
+    /* Animation */
+
+    --transition:.25s ease;
+
+}
+
+
+/* ===========================
+   Header Filament
+=========================== */
+
+.fi-topbar{
+    height: 64px !important;
+    min-height: 64px !important;
+    padding: 0 20px !important;
+    background: #1d1d22 !important;
+    border-bottom: 1px solid #2b2b30;
+}
+
+.fi-topbar > div{
+    height: 64px !important;
+}
+
+.fi-logo{
+    height: 42px !important;
+    width: auto !important;
+}
+
+.fi-topbar .fi-brand{
+    gap: 12px !important;
+}
+
+.fi-topbar .fi-input-wrp{
+    max-width: 320px;
+}
+
+.fi-topbar .fi-input{
+    height: 46px !important;
+    border-radius: 12px;
+}
+
+.fi-user-menu-trigger{
+    width: 42px;
+    height: 42px;
+}
+
+.fi-brand-name{
+    display: block !important;
+    color: white !important;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 12px;
+}
+
+.fi-brand{
+    display: flex !important;
+    align-items: center;
+    gap: 12px;
+}
+
+/* ===========================
+   Sidebar Brand
+=========================== */
+
+.mbg-brand{
+    padding: 20px 16px;
+    text-align: center;
+}
+
+.mbg-brand img{
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+.mbg-brand h2{
+    margin-top: 14px;
+    color: var(--mbg-text);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.mbg-brand p{
+    margin-top: 2px;
+    color: var(--mbg-text-muted);
+    font-size: .85rem;
+}
+
+.mbg-brand hr{
+    margin-top: 18px;
+    border: 0;
+    border-top: 1px solid var(--mbg-border);
+}

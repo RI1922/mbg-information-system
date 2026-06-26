@@ -1,0 +1,111 @@
+/* ===============================
+   MBG FORM
+================================= */
+
+.fi-input,
+.fi-select-input,
+.fi-textarea,
+.fi-file-upload-input,
+.fi-date-time-picker-input {
+
+    border-radius: var(--radius-sm);
+
+    border: 1px solid var(--mbg-border);
+
+    background: var(--mbg-card);
+
+    color: var(--mbg-text);
+
+    transition: var(--transition);
+
+    min-height: 44px;
+
+}
+
+/* =================================
+   Focus
+================================== */
+
+.fi-input:focus,
+.fi-select-input:focus,
+.fi-textarea:focus {
+
+    border-color: var(--mbg-gold);
+
+    box-shadow: 0 0 0 3px rgba(201,160,74,.18);
+
+}
+
+/* =================================
+   Placeholder
+================================== */
+
+.fi-input::placeholder,
+.fi-textarea::placeholder{
+
+    color: var(--mbg-text-muted);
+
+}
+
+/* =================================
+   Label
+================================== */
+
+.fi-fo-field-wrp-label{
+
+    font-weight:600;
+
+    color:var(--mbg-text);
+
+}
+
+/* =================================
+   Helper Text
+================================== */
+
+.fi-fo-field-wrp-helper-text{
+
+    color:var(--mbg-text-muted);
+
+    font-size:.82rem;
+
+}
+
+/* =================================
+   Required
+================================== */
+
+.fi-fo-field-wrp-label span{
+
+    color:#EF4444;
+
+}
+
+/* =================================
+   Checkbox & Toggle
+================================== */
+
+.fi-checkbox,
+.fi-toggle{
+
+    border-radius:999px;
+
+}
+
+/* =================================
+   Button
+================================== */
+
+.fi-btn{
+
+    border-radius:12px;
+
+    transition:var(--transition);
+
+}
+
+.fi-btn:hover{
+
+    transform:translateY(-2px);
+
+}

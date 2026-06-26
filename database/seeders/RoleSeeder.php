@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Spatie\Permission\Models\Role;
+use App\Enums\RoleEnum;
 
 class RoleSeeder extends Seeder
 {
@@ -13,7 +14,7 @@ class RoleSeeder extends Seeder
         $roles = [
 
             // System
-            'Super Administrator',
+            RoleEnum::SUPER_ADMIN->value,
             'Administrator Nasional',
 
             // SPPG

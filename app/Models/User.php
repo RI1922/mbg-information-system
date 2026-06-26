@@ -30,10 +30,10 @@ class User extends Authenticatable
     use HasUuids;
     use Notifiable;
 
-    public function uniqueIds(): array
-    {
-        return ['uuid'];
-    }
+public function uniqueIds(): array
+{
+    return ['uuid'];
+}
 
     /**
      * The attributes that are mass assignable.

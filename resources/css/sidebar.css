@@ -1,0 +1,168 @@
+/* ===============================
+   SIDEBAR
+================================== */
+
+.fi-sidebar{
+
+    background:var(--mbg-bg);
+
+    border-right:1px solid var(--mbg-border);
+
+}
+
+.fi-sidebar-header{
+
+    border-bottom:1px solid var(--mbg-border);
+
+    padding:20px;
+
+}
+
+/* ===================================
+   GROUP LABEL
+=================================== */
+
+.fi-sidebar-group-label{
+
+    color:var(--mbg-text-muted);
+
+    font-size:.72rem;
+
+    text-transform:uppercase;
+
+    letter-spacing:.08em;
+
+    font-weight:700;
+
+}
+
+/* ===================================
+   MENU ITEM
+=================================== */
+
+.fi-sidebar-item{
+
+    margin:4px 10px;
+
+    border-radius:12px;
+
+    transition:var(--transition);
+
+}
+
+.fi-sidebar-item a{
+
+    border-radius:12px;
+
+    color:var(--mbg-text-muted);
+
+    padding:12px 14px;
+
+    font-weight:500;
+
+}
+
+.fi-sidebar-item:hover{
+
+    background:var(--mbg-card-hover);
+
+}
+
+.fi-sidebar-item:hover a{
+
+    color:white;
+
+}
+
+/* ===================================
+   ACTIVE
+=================================== */
+
+.fi-sidebar-item-active{
+
+    background:linear-gradient(
+        90deg,
+        var(--mbg-primary),
+        var(--mbg-secondary)
+    ) !important;
+
+    border-left:4px solid var(--mbg-gold);
+
+}
+
+.fi-sidebar-item-active a{
+
+    color:white !important;
+
+    font-weight:600;
+
+}
+
+/* ===================================
+   ICON
+=================================== */
+
+.fi-sidebar-item-icon{
+
+    color:var(--mbg-text-muted);
+
+}
+
+.fi-sidebar-item:hover .fi-sidebar-item-icon{
+
+    color:white;
+
+}
+
+.fi-sidebar-item-active .fi-sidebar-item-icon{
+
+    color:var(--mbg-gold);
+
+}
+
+/* ===================================
+   COLLAPSE BUTTON
+=================================== */
+
+.fi-sidebar-collapse-button{
+
+    color:var(--mbg-text-muted);
+
+}
+
+.fi-sidebar-collapse-button:hover{
+
+    color:white;
+
+}
+
+/* ===================================
+   SCROLLBAR
+=================================== */
+
+.fi-sidebar::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+.fi-sidebar::-webkit-scrollbar-track{
+
+    background:transparent;
+
+}
+
+.fi-sidebar::-webkit-scrollbar-thumb{
+
+    background:#24324D;
+
+    border-radius:50px;
+
+}
+
+.fi-sidebar::-webkit-scrollbar-thumb:hover{
+
+    background:#39527A;
+
+}
+

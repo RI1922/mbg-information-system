@@ -1,59 +1,322 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div align="center">
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# 🍽️ MBG Information System
 
-## About Laravel
+### Monitoring Program Makan Bergizi Gratis
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Sistem Informasi Monitoring Program Makan Bergizi Gratis berbasis Laravel 12 dan Filament Admin.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<img src="public/images/readme/banner.png" width="100%">
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<br>
 
-## Learning Laravel
+![Laravel](https://img.shields.io/badge/Laravel-12-red?style=for-the-badge)
+![PHP](https://img.shields.io/badge/PHP-8.2-blue?style=for-the-badge)
+![Filament](https://img.shields.io/badge/Filament-v5-orange?style=for-the-badge)
+![MySQL](https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+</div>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+# 📖 About
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+MBG Information System merupakan sistem informasi yang digunakan untuk membantu proses monitoring Program Makan Bergizi Gratis (MBG).
 
-### Premium Partners
+Sistem menyediakan dashboard monitoring secara realtime untuk:
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+- Monitoring SPPG
+- Monitoring Sekolah
+- Monitoring Gudang
+- Monitoring Supplier
+- Monitoring Distribusi
+- Monitoring Produksi
+- Dashboard Statistik
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+# ✨ Features
 
-## Code of Conduct
+## Landing Page
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- Hero
+- About
+- Statistics
+- Monitoring
+- News
+- Gallery
+- Contact
 
-## Security Vulnerabilities
+---
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## Dashboard
 
-## License
+- Dashboard Modern
+- Statistics Overview
+- Production Chart
+- Distribution Chart
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+
+## Inventory
+
+- Barang
+- Kategori
+- Satuan
+- Gudang
+- Stok Gudang
+
+---
+
+## Master
+
+- Provinsi
+- Kabupaten
+- Kecamatan
+- Desa
+- SPPG
+- Sekolah
+- Supplier
+
+---
+
+## IAM
+
+- User
+- Role
+- Permission
+
+---
+
+# 📷 Screenshots
+
+## Landing Page
+
+<img src="public/images/readme/1.png">
+
+---
+
+## Dashboard
+
+<img src="public/images/readme/3.png">
+
+---
+
+## Monitoring
+
+<img src="public/images/readme/4.png">
+
+---
+
+## News
+
+<img src="public/images/readme/2.png">
+
+---
+
+# 🛠 Tech Stack
+
+| Technology | Version |
+|------------|---------|
+| Laravel | 12 |
+| PHP | 8.2+ |
+| Filament | v5 |
+| MySQL | Latest |
+| Tailwind CSS | Latest |
+| Vite | Latest |
+
+---
+
+# 📂 Project Structure
+
+```
+app
+ ├── Filament
+ │   ├── Pages
+ │   ├── Resources
+ │   ├── Widgets
+ │
+ ├── Models
+ ├── Providers
+
+resources
+ ├── css
+ ├── js
+ └── views
+
+public
+ ├── images
+ └── storage
+```
+
+---
+
+# 🚀 Installation
+
+## 1 Clone Repository
+
+```bash
+git clone https://github.com/USERNAME/mbg-information-system.git
+```
+
+---
+
+## 2 Masuk Folder
+
+```bash
+cd mbg-information-system
+```
+
+---
+
+## 3 Install Dependency
+
+```bash
+composer install
+```
+
+---
+
+## 4 Install Node Modules
+
+```bash
+npm install
+```
+
+---
+
+## 5 Copy Environment
+
+```bash
+cp .env.example .env
+```
+
+Windows
+
+```bash
+copy .env.example .env
+```
+
+---
+
+## 6 Generate Key
+
+```bash
+php artisan key:generate
+```
+
+---
+
+## 7 Konfigurasi Database
+
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=mbg_information_system
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+---
+
+## 8 Jalankan Migration
+
+```bash
+php artisan migrate
+```
+
+atau
+
+```bash
+php artisan migrate --seed
+```
+
+---
+
+## 9 Jalankan Vite
+
+```bash
+npm run dev
+```
+
+---
+
+## 10 Jalankan Server
+
+```bash
+php artisan serve
+```
+
+Aplikasi dapat diakses melalui
+
+```
+http://127.0.0.1:8000
+```
+
+Admin
+
+```
+http://127.0.0.1:8000/admin
+```
+
+---
+
+# 🔐 Default Login
+
+```
+Email
+
+admin@example.com
+
+Password
+
+password
+```
+
+---
+
+# 📊 Dashboard Preview
+
+Dashboard menampilkan:
+
+- Total SPPG
+- Total Sekolah
+- Total Gudang
+- Total Supplier
+- Grafik Produksi
+- Grafik Distribusi
+- Monitoring Realtime
+
+---
+
+# 🎯 Roadmap
+
+- ✅ Landing Page
+- ✅ Dashboard
+- ✅ Inventory
+- ✅ Master Data
+- ✅ Authentication
+- ✅ News
+- ✅ Gallery
+- 🔄 Export PDF
+- 🔄 Export Excel
+- 🔄 Notification
+- 🔄 API
+
+---
+
+# 👨‍💻 Author
+
+## M. Riduwan
+
+Program Studi Informatika
+
+Universitas Baturaja
+
+---
+
+# 📄 License
+
+MIT License
