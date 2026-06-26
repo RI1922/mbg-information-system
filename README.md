@@ -266,11 +266,11 @@ http://127.0.0.1:8000/admin
 # 🔐 Default Login
 
 ```
-Email
+Email xxx
 
-admin@example.com
+admin@mbg.local
 
-Password
+Password xxx
 
 password
 ```
